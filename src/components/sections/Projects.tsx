@@ -3,19 +3,19 @@ import { SectionLabel } from '../SectionLabel'
 
 const projects = [
   {
-    title: 'Presença+',
-    description: 'Sistema completo para gestão de presenças estudantis integrado ao Supabase.',
-    tags: ['React', 'FastAPI', 'Supabase'],
-    icon: '📋',
+    title: 'API Imóveis',
+    description: 'API REST de alta performance para gestão e busca avançada de imóveis.',
+    tags: ['Python', 'FastAPI'],
+    icon: '🏠',
     color: '#0D1117',
     gridColor: 'rgba(200, 169, 110, 0.1)',
     span: 'md:col-span-2',
   },
   {
-    title: 'DentiNote',
+    title: 'Triagem Dentista',
     description:
-      'Ferramenta clínica com API de voz e exportação automatizada de relatórios em RTF.',
-    tags: ['HTML/JS', 'Voice API', 'RTF Export'],
+      'Sistema inteligente de triagem odontológica com automação de testes e persistência de dados.',
+    tags: ['Python', 'Pytest', 'Supabase'],
     icon: '🦷',
     color: '#0F0F1A',
     gridColor: 'rgba(200, 169, 110, 0.08)',
