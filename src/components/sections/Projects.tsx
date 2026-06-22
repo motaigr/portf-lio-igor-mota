@@ -9,7 +9,8 @@ const projects = [
     icon: '🏠',
     color: '#0D1117',
     gridColor: 'rgba(200, 169, 110, 0.1)',
-    span: 'md:col-span-2',
+    span: 'md:col-span-1',
+    link: 'https://github.com/motaigr/api-imoveis',
   },
   {
     title: 'Triagem Dentista',
@@ -20,6 +21,7 @@ const projects = [
     color: '#0F0F1A',
     gridColor: 'rgba(200, 169, 110, 0.08)',
     span: 'md:col-span-1',
+    link: 'https://github.com/motaigr/triagem-odontologica',
   },
   {
     title: 'Phone Detection CV',
@@ -29,6 +31,28 @@ const projects = [
     color: '#0A1A0A',
     gridColor: 'rgba(200, 169, 110, 0.08)',
     span: 'md:col-span-1',
+    link: 'https://github.com/motaigr/meu-primeiro-projeto-ia',
+  },
+  {
+    title: 'Gimimo',
+    description: 'Aplicação web interativa focada em estruturação de dados e design responsivo.',
+    tags: ['HTML', 'JS', 'JSON', 'CSS'],
+    icon: '🌐',
+    color: '#0D1117',
+    gridColor: 'rgba(200, 169, 110, 0.1)',
+    span: 'md:col-span-1',
+    link: 'https://github.com/motaigr/gimimo',
+  },
+  {
+    title: 'Gimimo Relatórios',
+    description:
+      'Projeto de análise de dados em Python utilizando as bibliotecas Pandas e Glob para processamento de informações.',
+    tags: ['Python', 'Pandas', 'Glob'],
+    icon: '📊',
+    color: '#09090F',
+    gridColor: 'rgba(200, 169, 110, 0.05)',
+    span: 'md:col-span-1',
+    link: 'https://github.com/motaigr/gimimo_relatorios',
   },
 ]
 
@@ -42,7 +66,12 @@ export function Projects() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
         {projects.map((p, i) => (
           <Reveal key={i} delay={i * 100} className={p.span}>
-            <div className="group rounded-xl bg-t-bg2 border-[0.5px] border-t-border overflow-hidden transition-all duration-300 hover:border-t-gold/35 cursor-pointer h-full flex flex-col">
+            <a
+              href={p.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group rounded-xl bg-t-bg2 border-[0.5px] border-t-border overflow-hidden transition-all duration-200 hover:border-t-gold/35 cursor-pointer h-full flex flex-col"
+            >
               <div
                 className="relative w-full h-48 overflow-hidden flex items-center justify-center border-b-[0.5px] border-t-border"
                 style={{ backgroundColor: p.color }}
@@ -79,7 +108,7 @@ export function Projects() {
                   {p.description}
                 </p>
               </div>
-            </div>
+            </a>
           </Reveal>
         ))}
       </div>

@@ -25,8 +25,11 @@ export function Education() {
           <div className="p-6 rounded-xl border-[0.5px] border-t-border bg-t-bg2 flex flex-col h-full">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-lg font-medium text-t-text">Universidade Positivo</h3>
+              <span className="px-2 py-1 rounded bg-t-gold/10 text-t-gold font-mono text-[10px] uppercase border-[0.5px] border-t-gold/20">
+                Em curso
+              </span>
             </div>
-            <p className="font-mono text-sm text-t-muted">Análise e Desenvolvimento de Sistemas</p>
+            <p className="font-mono text-sm text-t-muted">Sistemas de Informação</p>
           </div>
         </Reveal>
       </div>
