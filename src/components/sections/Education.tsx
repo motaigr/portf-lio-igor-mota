@@ -17,7 +17,7 @@ export function Education() {
                 Em curso
               </span>
             </div>
-            <p className="font-mono text-sm text-t-muted">Applied Technology</p>
+            <p className="font-mono text-sm text-t-muted">Desenvolvimento de Software</p>
           </div>
         </Reveal>
 

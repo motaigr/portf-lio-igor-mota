@@ -2,10 +2,9 @@ import { Reveal } from '../Reveal'
 import { SectionLabel } from '../SectionLabel'
 
 const events = [
-  { year: '2024', title: 'Desenvolvimento do Presença+', active: true },
-  { year: '2024', title: 'Visão Computacional c/ YOLOv8', active: false },
-  { year: '2023', title: 'Transição para Python & FastAPI', active: false },
-  { year: '2021', title: 'Atuação em SAP, Salesforce e Pega', active: false },
+  { year: '2026', title: 'Desenvolvimento de projetos próprios (Python/AI)', active: true },
+  { year: '2025', title: 'Transição de carreira para Tecnologia', active: false },
+  { year: '2022-2026', title: 'Experiência em operações administrativas e financeiras', active: false },
 ]
 
 export function About() {
@@ -29,8 +28,8 @@ export function About() {
               empresariais e resiliência de dados.
             </p>
             <p>
-              Hoje, aplico esse rigor e visão estruturada no ecossistema moderno. Utilizando Python,
-              React e ferramentas de Inteligência Artificial, construo aplicações ágeis, focadas na
+              Hoje, aplico esse rigor e visão estruturada no ecossistema moderno. Utilizando Python
+              e ferramentas de Inteligência Artificial, construo aplicações ágeis, focadas na
               experiência do usuário e na entrega real de valor, sem perder de vista a robustez que
               o mundo corporativo exige.
             </p>

@@ -4,7 +4,7 @@ import { SectionLabel } from '../SectionLabel'
 const stack = [
   { name: 'Python', role: 'Backend & Data', color: '#3776AB' },
   { name: 'FastAPI', role: 'API Architecture', color: '#009688' },
-  { name: 'React', role: 'Frontend Interfaces', color: '#61DAFB' },
+  { tech: 'Data Analysis & Visualization', role: ['Pandas', 'Plotly', 'Streamlit'] color: '#61DAFB' },
   { name: 'Supabase', role: 'Database & Auth', color: '#3ECF8E' },
   { name: 'YOLOv8', role: 'Computer Vision', color: '#C8A96E' },
   { name: 'SAP/CRM', role: 'Enterprise Systems', color: '#FF4757' },
