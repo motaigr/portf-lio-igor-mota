@@ -38,7 +38,7 @@ export default function Layout() {
             <Github className="w-3 h-3" /> GitHub
           </a>
           <a
-            href="https://linkedin.com/in/igormota"
+            href="https://www.linkedin.com/in/igor-augusto-mota-gon%C3%A7alves-b85571234/"
             target="_blank"
             rel="noreferrer"
             className="hover:text-t-gold transition-colors duration-200 flex items-center gap-1"

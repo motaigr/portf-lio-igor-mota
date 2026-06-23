@@ -1,5 +1,5 @@
 import { Reveal } from '../Reveal'
-import { Mail, ArrowRight } from 'lucide-react'
+import { MessageCircle, ArrowRight } from 'lucide-react'
 
 export function Contact() {
   return (
@@ -20,10 +20,12 @@ export function Contact() {
 
             <div className="flex flex-col sm:flex-row items-center gap-6">
               <a
-                href="mailto:contato@igormota.dev"
+                href="https://wa.me/5541987859725"
+                target="_blank"
+                rel="noreferrer"
                 className="flex items-center gap-2 px-6 py-3 rounded-md bg-t-gold text-t-bg font-medium hover:opacity-90 hover:-translate-y-[1px] transition-all duration-200"
               >
-                <Mail className="w-4 h-4" />
+                <MessageCircle className="w-4 h-4" />
                 Entrar em contato
               </a>
 
