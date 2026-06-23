@@ -10,8 +10,8 @@ const stack = [
   color: '#61DAFB' 
 },
   { name: 'Supabase', role: 'Database & Auth', color: '#3ECF8E' },
-  { name: 'YOLOv8', role: 'Computer Vision', color: '#C8A96E' },
-  { name: 'SAP/CRM', role: 'Enterprise Systems', color: '#FF4757' },
+  { name: 'Agentes de IA', role: 'LLMs & Automação', color: '#C8A96E' },
+  { name: 'CRM', role: 'Enterprise Systems', color: '#FF4757' },
 ]
 
 export function TechStack() {
